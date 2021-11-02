@@ -136,6 +136,7 @@ nav a:hover {
 
 .cta {
   width: 100%;
+  margin-top: 25px;
 }
 
 .cta .cta-btn {
@@ -145,6 +146,7 @@ nav a:hover {
   border: 0;
   outline: 0;
   color: white;
+  border-radius: 4px;
 }
 
 .cta .cta-btn:hover {

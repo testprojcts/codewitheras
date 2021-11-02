@@ -1,1 +1,0 @@
-# Main Plan For The Online Schooling Web Platform

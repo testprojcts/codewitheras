@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 
 .container {
   display: grid;
-  grid-template-columns: 2.7fr 1fr;
+  grid-template-columns: 1fr;
   align-items: flex-start;
   padding: 10px 0;
 }
