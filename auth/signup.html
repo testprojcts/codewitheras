@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/codewitheras-logo.ico"
+      type="image/x-icon"
+    />
+    <title>CodeWithEras | Sign Up</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="auth.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="logo">
+        <a href="/index.html">Codewitheras</a>
+      </div>
+    </header>
+
+    <!-- Sign Up form -->
+    <div class="form-container">
+      <form autocomplete="off" id="signup">
+        <div class="form-hd">
+          <h4>start for free</h4>
+          <h3>Sign Up to Codewitheras</h3>
+          <p>
+            Already a member? <span><a href="signin.html">Login</a></span>
+          </p>
+        </div>
+        <div class="sign-up-inputs">
+          <div class="inputs">
+            <label for="emailField">E-mail</label>
+            <div class="input-box">
+              <input
+                type="email"
+                name="email"
+                id="emailField"
+                placeholder="name@email.com"
+                required
+              />
+              <span
+                ><button type="button">
+                  <i class="fas fa-envelope icon"></i></button
+              ></span>
+            </div>
+          </div>
+          <div class="inputs">
+            <label for="passwordField">Password</label>
+            <div class="input-box">
+              <input
+                type="password"
+                name="password"
+                id="passwordField"
+                placeholder="6+ characters, 1 Capital letter"
+                required
+              />
+              <span
+                ><button type="button"><i class="fas fa-lock icon"></i></button
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div class="form-btns">
+          <button class="create-acc" id="sign_up">Create an account</button>
+          <button class="google-btn" type="button">
+            <i class="fab fa-google"></i>Sign up with Google
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Script -->
+    <script src="/js/auth.js" type="module"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

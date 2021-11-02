@@ -1,0 +1,53 @@
+/* Custom Colors */
+:root {
+  --main-blue: #444daa;
+  --main-bg: #ffffff;
+  --banner-bg: #eeeaff2f;
+  --h1-h3-txt-color: #242448;
+
+  --heading-color: #212349;
+}
+
+.courses__banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.199)),
+    var(--main-blue);
+}
+
+.courses__banner .courses__banner_hd {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.courses__banner_hd h2 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.courses__banner_hd p {
+  color: white;
+  font-size: 26px;
+  margin-bottom: 55px;
+}
+
+.courses__banner_hd .choose_course_btn {
+  padding: 13px 30px;
+  background-color: rgba(0, 0, 0, 0.678);
+  color: white;
+  font-size: 18px;
+}
+
+.choose_course_btn:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: all 0.2s ease-in-out;
+}

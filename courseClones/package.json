@@ -1,0 +1,22 @@
+{
+  "name": "code-with-eras",
+  "version": "1.0.0",
+  "description": "A platform for learning Web Development to help the unemployed youth of Africa learn a soft skill and get a job in the tech companies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testprojcts/code-with-eras.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testprojcts/code-with-eras/issues"
+  },
+  "homepage": "https://github.com/testprojcts/code-with-eras#readme",
+  "dependencies": {
+    "firebase": "^9.1.3"
+  }
+}

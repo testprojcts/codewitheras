@@ -1,0 +1,220 @@
+* {
+  list-style-type: none;
+}
+
+/* Custom Colors */
+:root {
+  --main-blue: #444daa;
+  --main-bg: #ffffff;
+  --banner-bg: #eeeaff2f;
+  --h1-h3-txt-color: #242448;
+
+  --heading-color: #212349;
+}
+
+.course__banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  height: 600px;
+  background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.199)),
+    var(--main-blue);
+  position: relative;
+  /* margin-bottom: 100px; */
+}
+
+.course__banner .course__banner_hd {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -70px;
+}
+
+.course__banner_hd h2 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 25px;
+  max-width: 600px;
+  text-align: center;
+  /* font-family: serif; */
+  line-height: 58px;
+}
+
+.course__banner_hd p {
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 18px;
+  margin-bottom: 55px;
+  max-width: 550px;
+  text-align: center;
+}
+
+.course__banner_hd .choose_course_btn {
+  padding: 13px 30px;
+  background-color: rgba(0, 0, 0, 0.678);
+  color: white;
+  font-size: 18px;
+}
+
+.choose_course_btn:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Course Info */
+.course-info {
+  width: 100%;
+  padding: 0 100px;
+  /* background-color: rgba(189, 189, 189, 0.363); */
+  /* border: 2px solid green; */
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 200px;
+  /* background-color: red; */
+}
+
+.course {
+  margin-bottom: 50px;
+  margin-top: 0;
+  overflow: hidden;
+  height: 1400px;
+}
+
+.course-info .course-info-container {
+  background-color: #fff;
+  position: absolute;
+  top: 550px;
+  width: 100%;
+  max-width: 980px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-bottom: 100px;
+  box-shadow: 0px 2px 15px rgba(172, 172, 172, 0.315);
+}
+
+.course-info-hd {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-info-hd h4 {
+  color: var(--h1-h3-txt-color);
+  font-size: 16px;
+}
+
+.course-info-hd .btn {
+  padding: 10px 18px;
+  background-color: var(--main-blue);
+  color: white;
+}
+
+.course-info-hd .btn:hover {
+  background-color: #0f1983;
+  cursor: pointer;
+}
+
+.course-info-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  /* gap: 10px; */
+  /* padding: 0 10px; */
+}
+
+.course-info-content .course-info-heading {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 26px;
+  color: var(--h1-h3-txt-color);
+}
+
+.course-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  /* background: blue; */
+  /* padding: 20px 0; */
+}
+
+.course-preview:hover {
+  cursor: pointer;
+}
+
+.course-info-content .course-preview details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: rgba(241, 241, 241, 0.027);
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(228, 228, 228, 0.555);
+  /* padding-bottom: 20px; */
+}
+
+.course-preview details:hover {
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 5px;
+  box-shadow: -0px 5px 15px rgba(216, 216, 216, 0.24);
+}
+
+.course-preview details:last-child {
+  border-bottom: 0;
+  /* background-color: red; */
+}
+
+details summary {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  padding: 15px 0;
+}
+
+details summary p {
+  font-weight: 550;
+  color: var(--heading-color);
+}
+
+details summary:hover {
+  cursor: pointer;
+}
+
+details .preview {
+  padding: 10px 0;
+  padding: 5px 12px;
+  background-color: transparent;
+}
+
+.preview .preview-info li {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  height: 300px;
+  background-color: var(--h1-h3-txt-color);
+}

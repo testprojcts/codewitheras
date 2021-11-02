@@ -1,0 +1,200 @@
+:root {
+  --main-blue: #444daa;
+  --main-bg: #ffffff;
+  --banner-bg: #eeeaff2f;
+  --h1-h3-txt-color: #242448;
+
+  --heading-color: #212349;
+
+  user-select: none;
+}
+
+/****************** About Page ******************** */
+.quotes {
+  text-align: center;
+  padding: 0 70px;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.quotes_container {
+  max-width: 1440px;
+  background-color: #b3c0eb23;
+  width: 100%;
+}
+
+blockquote {
+  padding: 120px 0;
+  /* background-color: #edeff748; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+blockquote p {
+  font-size: 26px;
+  font-weight: 500;
+  max-width: 900px;
+  margin-bottom: 10px;
+  color: var(--heading-color);
+}
+
+blockquote small {
+  font-size: 16px;
+  font-weight: 430;
+  color: rgb(128, 128, 128);
+}
+
+/* Why Our company  */
+.why_us {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 0;
+  /* background-color: red; */
+  height: 450px;
+}
+
+.why_us .why_us_hd {
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.why_us_hd h2 {
+  font-size: 30px;
+  color: var(--heading-color);
+}
+
+.why_us_para {
+  width: 100%;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.why_us_para p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 900px;
+}
+
+/******************* ** Our Mission ********************* */
+.mission {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: var(--heading-color);
+  color: white;
+  padding: 40px 0;
+  height: 500px;
+  margin-bottom: 80px;
+}
+
+.mission_hd {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.mission_hd h2 {
+  font-size: 30px;
+  color: #fff;
+  color: var(--heading-color);
+}
+
+.mission_para {
+  width: 100%;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mission_para p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 900px;
+  margin-bottom: 35px;
+}
+
+.mission_para h4 {
+  font-size: 24px;
+  color: rgb(243, 243, 243);
+}
+
+/******************* Company Information *******************/
+.company_info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.company_info .company_info_hd {
+  width: 100%;
+  text-align: center;
+}
+
+.company_info_hd h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info_container {
+  width: 700px;
+  padding: 40px 0;
+}
+
+.info_container .info_txt {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-column: auto;
+  gap: 30px;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.info_txt a {
+  color: rgb(68, 68, 68);
+  text-decoration: underline;
+  text-decoration-color: var(--h1-h3-txt-color);
+}
+
+.info_txt h4 {
+  font-size: 22px;
+  color: var(--h1-h3-txt-color);
+  height: 100%;
+  width: 250px;
+}
+
+.info_txt p {
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+  font-weight: 500;
+}
