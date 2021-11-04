@@ -54,13 +54,13 @@ form .form-hd {
   font-size: 15px;
 }
 
-.inputs .info_succeed {
+/* .inputs .info_succeed {
   color: rgb(11, 173, 11);
   border: 0;
   outline: 0;
   background-color: rgba(206, 248, 206, 0.651);
   width: 100%;
-}
+} */
 
 .inputs .info_warn {
   color: #eed202;
