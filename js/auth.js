@@ -13,19 +13,19 @@ const logIn = document.getElementById('signin');
 const googleAuth = document.getElementsByClassName('google-btn');
 
 // Listening for Auth State Changes
-onAuthStateChanged(auth, (user) => {
-  if (user) {
-    // User is signed in.
-    console.log('====================================');
-    console.log('user logged in');
-    console.log('====================================');
-  } else {
-    // User is signed out.
-    console.log('====================================');
-    console.log('User not logged in');
-    console.log('====================================');
-  }
-});
+// onAuthStateChanged(auth, (user) => {
+//   if (user) {
+//     // User is signed in.
+//     console.log('====================================');
+//     console.log('user logged in');
+//     console.log('====================================');
+//   } else {
+//     // User is signed out.
+//     console.log('====================================');
+//     console.log('User not logged in');
+//     console.log('====================================');
+//   }
+// });
 
 // Add EventListener to the Create Account Button
 signUp.addEventListener('click', () => {
