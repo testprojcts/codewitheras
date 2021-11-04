@@ -198,3 +198,9 @@ blockquote small {
   color: rgb(68, 68, 68);
   font-weight: 500;
 }
+
+/* Map styling */
+#map {
+  height: 700px;
+  width: 100%;
+}
