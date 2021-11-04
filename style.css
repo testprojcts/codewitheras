@@ -587,6 +587,7 @@ nav a:hover {
   font-size: 16px;
   line-height: 27px;
 }
+
 /* Footer */
 .footer {
   width: 100%;
@@ -595,7 +596,7 @@ nav a:hover {
   justify-content: center;
   background-color: var(--heading-color);
   color: #ddd;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   height: 300px;
 }
 
@@ -643,8 +644,7 @@ footer ul li {
   text-decoration: none;
   gap: 30px;
   height: 100%;
-  padding: 10px 5px;
-  gap: 20px;
+  padding: 10px 0;
   width: 100%;
 }
 
