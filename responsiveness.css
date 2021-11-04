@@ -1,12 +1,4 @@
 /* Custom Colors */
-:root {
-  --main-blue: #444daa;
-  --main-bg: #ffffff;
-  --banner-bg: #eeeaff2f;
-  --h1-h3-txt-color: #242448;
-
-  --heading-color: #212349;
-}
 
 * {
   margin: 0;
@@ -20,108 +12,170 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+/**************** Iphone 6splus and below ****************/
+@media only screen and (max-width: 600px) {
+  :root {
+    --main-blue: #444daa;
+    --main-bg: #ffffff;
+    --banner-bg: #eeeaff2f;
+    --h1-h3-txt-color: #242448;
+
+    --heading-color: #212349;
+  }
+
+  body {
+    background-color: rgba(235, 235, 235, 0);
+  }
+
+  /* Header section */
   header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    box-shadow: 0px 5px 10px rgba(117, 117, 117, 0.096);
     height: 60px;
-    background: var(--main-bg);
-    /* background: rgb(36, 35, 35); */
+    padding: 0 20px;
     top: 0;
     z-index: 5;
+    background-color: #fff;
+    position: relative;
+  }
+
+  header .header__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: sticky;
-    opacity: 9;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 30px; */
     width: 100%;
   }
 
-  header nav {
+  .logo a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #121c91;
+  }
+
+  nav {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    /* gap: 3.125rem; 50px */
+    /* gap: 30px; */
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: -100%;
-    padding: 0 20px;
-    background: white;
-    height: calc(100vh - 60px);
-    width: 75%;
-    transition: 0.3s ease-in-out;
+    background-color: var(--heading-color);
+    width: 90%;
+    height: 100vh;
+    padding: 40px;
   }
 
-  /* Displays the sidenav when set to active using js */
   nav.active {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    /* gap: 35px; */
     position: absolute;
-    top: 100%;
-    left: 0;
-    padding: 0 20px;
-    background: var(--main-bg);
-    height: calc(100vh - 60px);
-    width: 75%;
-    transition: 0.3s ease-in-out;
-    z-index: 5;
-    box-shadow: 0 1px 15px rgb(204, 204, 204);
+    top: 45px;
+    left: -40px;
+    background-color: var(--heading-color);
+    width: 90%;
+    height: 100vh;
+    padding: 40px;
+    transition: all 0.25 linear;
   }
 
   nav a {
-    font-size: 16px;
-    width: 100%;
-    padding: 10px 0;
-    gap: 10px;
-  }
-
-  header .logo a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
+    color: #fff;
   }
 
-  header .toggle button {
-    padding: 3px 5px;
+  .logo #menu_bar {
+    /* background-color: red; */
+    height: 40px;
+    width: 40px;
     border: 0;
-    outline: 0;
-    background: transparent;
-    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
   }
 
-  header .toggle i {
-    font-size: 22px;
-    color: var(--h1-h3-txt-color);
-  }
-
-  /* Banner */
+  /* Banner Section */
   .banner {
     width: 100%;
-    height: 200px;
-    padding: 0;
+    height: 250px;
+    background-color: var(--heading-color);
   }
 
-  .banner__content {
-    height: 100%;
+  .banner .banner__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     padding: 0;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+  .banner__content .banner-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .banner-txt .hd {
+    width: 100%;
+    margin: 0;
+  }
+
+  .cta {
+    width: 100%;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .banner-txt .hd {
-    background-color: blueviolet;
-    height: 100%;
-    padding: 0;
-    width: 100%;
+  .cta .cta-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: var(--main-blue);
+    border: 0;
+    outline: 0;
+    color: white;
+    border-radius: 4px;
   }
 
-  .hd h3 {
-    font-size: 18px;
-    color: white;
-    max-width: 900px;
-    width: 100%;
+  .banner-txt .hd {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .banner-txt .hd h3 {
+    padding: 3px 0;
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0;
+    color: #fff;
+  }
+
+  .banner__img {
+    display: none;
   }
 }

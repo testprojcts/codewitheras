@@ -1,0 +1,27 @@
+/**************** Iphone 6s plus portrait tablets and large phones and up ****************/
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: dodgerblue;
+  }
+}
+
+/**************** Medium devices eg tablet, 700px upwards ****************/
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+
+/**************** Large devices eg laptops, 992px upwards ****************/
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: orange;
+  }
+}
+
+/**************** Extra Large devices eg. laptops, desktops and Tv upwards *********/
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: violet;
+  }
+}

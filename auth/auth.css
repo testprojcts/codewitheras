@@ -43,6 +43,39 @@ form .form-hd {
   width: 100%;
 }
 
+.inputs p {
+  display: none;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.inputs .info_succeed {
+  color: rgb(11, 173, 11);
+  border: 0;
+  outline: 0;
+  background-color: rgba(206, 248, 206, 0.651);
+  width: 100%;
+}
+
+.inputs .info_warn {
+  color: #eed202;
+  background-color: #ffe2053f;
+}
+
+.inputs .info_failed {
+  color: rgba(255, 0, 0, 0.877);
+  background-color: rgba(238, 83, 83, 0.267);
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
 .form-hd h4 {
   font-size: 14px;
   text-transform: uppercase;

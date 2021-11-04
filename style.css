@@ -97,6 +97,10 @@ nav a:hover {
   color: #444daa;
 }
 
+.logo #menu_bar {
+  display: none;
+}
+
 /* Banner */
 .banner {
   width: 100%;
@@ -105,7 +109,7 @@ nav a:hover {
 }
 
 .banner .banner__content {
-  background-color: var(--banner-bg);
+  /* background-color: var(--banner-bg); */
   display: flex;
   align-items: center;
   justify-content: space-between;
