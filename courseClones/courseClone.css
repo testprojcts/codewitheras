@@ -241,7 +241,8 @@ details .preview {
 
 .start_course .start_course_banner {
   width: 100%;
-  height: 100%;
+  height: fit-content;
+  /* max-height: fit-content; */
 }
 
 .start_course_banner img {
