@@ -1,0 +1,133 @@
+/* Custom Colors */
+:root {
+  --main-blue: #444daa;
+  --main-bg: #ffffff;
+  --banner-bg: #eeeaff2f;
+  --h1-h3-txt-color: #242448;
+  --heading-color: #212349;
+}
+
+.contact_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.form__content {
+  margin: 40px 0;
+}
+
+.contact_form_hd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.contact_form_hd h3 {
+  font-size: 30px;
+  color: var(--heading-color);
+  text-align: center;
+}
+
+.contact_form_hd p {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  color: var(--heading-color);
+  font-weight: 500;
+  max-width: 850px;
+  padding: 8px 0;
+  line-height: 29px;
+}
+
+.contact_form_hd p span a {
+  color: var(--h1-h3-txt-color);
+  text-decoration: underline;
+}
+
+/**************** Form ****************/
+form {
+  width: 100%;
+  padding: 40px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgba(245, 244, 244, 0.397);
+  border-radius: 7px;
+}
+
+form .form_group {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+form .form_group label {
+  margin-bottom: 8px;
+  color: var(--h1-h3-txt-color);
+  font-size: 18px;
+}
+
+.form_group input {
+  width: 100%;
+  padding: 8px 10px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.534);
+  outline: 0;
+  font-size: 14px;
+  border-radius: 5px;
+  color: var(--heading-color);
+  background-color: rgba(245, 245, 245, 0.178);
+}
+
+.form_group input::-webkit-input-placeholder {
+  color: var(--heading-color);
+}
+
+.form_group textarea {
+  width: 100%;
+  padding: 20px 15px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: 0;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.178);
+}
+
+.form_group textarea::-webkit-resizer {
+  display: none;
+}
+
+form .sendbtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sendbtn .btn {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--h1-h3-txt-color);
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}

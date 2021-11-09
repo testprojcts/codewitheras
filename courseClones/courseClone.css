@@ -241,7 +241,7 @@ details .preview {
 
 .start_course .start_course_banner {
   width: 100%;
-  height: fit-content;
+  height: 230px;
   /* max-height: fit-content; */
 }
 
@@ -254,6 +254,7 @@ details .preview {
 
 .start_course_price {
   margin: 20px 15px;
+  padding: 0 20px;
 }
 
 .start_course_price h2 {
@@ -264,7 +265,7 @@ details .preview {
 
 .start_course_price button {
   width: 100%;
-  padding: 15px 20px;
+  padding: 15px 10px;
   font-size: 16px;
   color: #fff;
   background-color: var(--heading-color);
@@ -273,6 +274,9 @@ details .preview {
   outline: 0;
   cursor: pointer;
   transition: transform 0.3s linear;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .start_course_price button:hover {

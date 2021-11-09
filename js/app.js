@@ -9,3 +9,16 @@ startBtn.addEventListener('click', () => {
     window.location.href = './login.html';
   }
 });
+
+// window.navigator.onLine()
+
+const darkmode = false;
+
+if (!darkmode) {
+  const body = document.getElementsByTagName('body');
+
+  body.classList.add('lightmode');
+} else {
+  body.classList.remove('lightmode');
+  body.classList.add('darkmode');
+}

@@ -720,3 +720,54 @@ footer ul li {
   font-size: 15px;
   cursor: pointer;
 }
+
+/* Online / Offline Status Styling */
+.status {
+  padding: 20px 0;
+  background-color: var(--heading-color);
+  position: fixed;
+  bottom: 20px;
+  display: inline-block;
+  left: 20px;
+  padding: 13px;
+  border-radius: 5px;
+  width: 170px;
+  color: white;
+  transform: translateX(-200px);
+  transition: transform 0.25ms linear;
+}
+
+.status.online {
+  background-color: greenyellow;
+  color: green;
+  transform: translateX(10px);
+}
+
+.status.offline {
+  background-color: rgba(255, 0, 0, 0.767);
+  color: white;
+  transform: translateX(10px);
+}
+
+/* .status .online {
+  background-color: greenyellow;
+  color: green;
+  position: absolute;
+  width: 150px;
+  right: 20px;
+  padding: 10px;
+  bottom: 50px;
+  border-radius: 5px;
+  z-index: 5;
+} */
+
+/* .status .offline {
+  background-color: red;
+  color: white;
+  position: absolute;
+  width: 150px;
+  right: 20px;
+  padding: 10px;
+  bottom: 50px;
+  border-radius: 5px;
+} */
