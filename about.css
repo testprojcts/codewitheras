@@ -46,9 +46,10 @@ blockquote p {
 }
 
 blockquote small {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 430;
-  color: rgb(128, 128, 128);
+  /* color: rgb(128, 128, 128); */
+  color: var(--h1-h3-txt-color);
 }
 
 /* Why Our company  */
