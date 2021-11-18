@@ -258,12 +258,12 @@ details .preview {
 }
 
 .start_course_price h2 {
-  font-size: 32px;
+  font-size: 28px;
   margin-bottom: 15px;
   color: var(--h1-h3-txt-color);
 }
 
-.start_course_price button {
+/* .start_course_price button {
   width: 100%;
   padding: 15px 10px;
   font-size: 16px;
@@ -277,6 +277,13 @@ details .preview {
   justify-content: center;
   display: flex;
   align-items: center;
+  height: 100%;
+} */
+
+.start_course_price .start_btn {
+  width: 100%;
+  padding: 10px;
+  color: white;
 }
 
 .start_course_price button:hover {
